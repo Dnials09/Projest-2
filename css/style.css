@@ -527,18 +527,24 @@ html {
   margin-right: 0px;
 }
 
-/* line 70, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 69, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 73, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .left-wrapper {
   position: relative;
 }
 
-/* line 72, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 75, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .left-wrapper img {
   position: relative;
   z-index: 5;
 }
 
-/* line 75, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 78, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .left-wrapper__rectangle-blue {
   position: absolute;
   top: 150px;
@@ -552,7 +558,7 @@ html {
   z-index: 2;
 }
 
-/* line 86, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 89, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .left-wrapper__rectangle-orange {
   position: absolute;
   width: 618.43px;
@@ -566,7 +572,7 @@ html {
   z-index: 3;
 }
 
-/* line 97, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 100, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .left-wrapper__rectangle-grey {
   position: absolute;
   width: 608.97px;
@@ -580,7 +586,7 @@ html {
   z-index: 1;
 }
 
-/* line 109, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 112, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .right-wrapper {
   width: 372px;
   position: absolute;
@@ -589,29 +595,29 @@ html {
   z-index: 5;
 }
 
-/* line 115, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 118, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .right-wrapper__icons-box {
   margin-bottom: 1px;
   padding-left: 10px;
 }
 
-/* line 118, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 121, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .right-wrapper__title {
   margin-bottom: 5px;
 }
 
-/* line 120, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 123, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .right-wrapper__text {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-/* line 125, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 128, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .icons {
   display: inline-flex;
 }
 
-/* line 128, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 131, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .icons__item {
   display: flex;
   justify-content: center;
@@ -623,24 +629,24 @@ html {
   margin-right: 17px;
 }
 
-/* line 137, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 140, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .icons__item:last-child {
   margin-right: 0px;
 }
 
-/* line 139, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 142, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .icons__item i {
   font-size: 21px;
 }
 
-/* line 142, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 145, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .title {
   font-size: 72px;
   position: relative;
   font-weight: bold;
 }
 
-/* line 146, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 149, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .title__hr {
   width: 65px;
   position: absolute;
@@ -650,12 +656,12 @@ html {
   border-top: 1px solid black;
 }
 
-/* line 154, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 157, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .buttons {
   display: inline-flex;
 }
 
-/* line 156, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 159, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .buttons__main-btn {
   margin-right: 32px;
   width: 200px;
@@ -669,23 +675,23 @@ html {
   font-weight: bold;
 }
 
-/* line 167, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 170, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .buttons__icon-btn {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 170, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 173, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .buttons__icon-btn img {
   margin-right: 12px;
 }
 
-/* line 172, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 175, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .buttons__text {
   font-size: 16px;
 }
 
-/* line 175, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 178, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .elipse {
   width: 194px;
   height: 194px;
@@ -696,13 +702,13 @@ html {
   align-items: center;
 }
 
-/* line 183, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 186, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .elipse_dig {
   width: 282px;
   height: 282px;
 }
 
-/* line 186, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 189, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .elipse__subtract {
   width: 129.33px;
   height: 129.33px;
@@ -710,56 +716,56 @@ html {
   border-radius: 150px;
 }
 
-/* line 191, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 194, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .elipse__subtract_big {
   width: 188px;
   height: 188px;
 }
 
-/* line 197, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 200, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section {
   min-height: 700px;
 }
 
-/* line 199, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 202, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__container {
   padding-top: 32px;
   position: relative;
 }
 
-/* line 202, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 205, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__title {
   margin-bottom: 40px;
 }
 
-/* line 204, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 207, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__cards-box {
   display: inline-flex;
   margin-bottom: 25px;
 }
 
-/* line 207, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 210, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__cards-item {
   margin-right: 30px;
 }
 
-/* line 209, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 212, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__cards-item:last-child {
   margin-right: 0;
 }
 
-/* line 211, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 214, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__icons-box {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* line 215, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 218, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__icons-item:last-child {
   margin-right: 0;
 }
 
-/* line 217, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 220, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__first-elipse {
   position: absolute;
   top: 80px;
@@ -767,7 +773,7 @@ html {
   z-index: -1;
 }
 
-/* line 222, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 225, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .second-section__second-elipse {
   position: absolute;
   top: 364px;
@@ -775,7 +781,7 @@ html {
   z-index: -1;
 }
 
-/* line 228, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 231, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .cards-item {
   position: relative;
   width: 360px;
@@ -786,12 +792,12 @@ html {
   align-items: flex-end;
 }
 
-/* line 236, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 239, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .cards-item__img {
   height: 335px;
 }
 
-/* line 238, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 241, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .cards-item__text {
   width: 280px;
   font-size: 36px;
@@ -803,40 +809,40 @@ html {
   font-weight: bold;
 }
 
-/* line 248, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 251, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .cards-item_orange {
   background: #F28B64;
 }
 
-/* line 251, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 254, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .cards-item_blue {
   background: #5290EA;
 }
 
-/* line 254, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 257, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .icons-item {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 257, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 260, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .icons-item__img {
   margin-right: 20px;
   width: 80px;
 }
 
-/* line 260, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 263, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .icons-item__text {
   font-size: 18px;
 }
 
-/* line 262, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 265, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .icons-item__text span {
   font-size: 48px;
   font-weight: bold;
 }
 
-/* line 266, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 269, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .third-section {
   position: relative;
   min-height: 640px;
@@ -845,7 +851,7 @@ html {
   z-index: 0;
 }
 
-/* line 272, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 275, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .third-section__container {
   display: flex;
   flex-direction: row;
@@ -855,23 +861,23 @@ html {
   padding-top: 46px;
 }
 
-/* line 279, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 282, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .third-section__right-wrapper {
   max-width: 480px;
 }
 
-/* line 281, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 284, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .third-section__right-title {
   margin-bottom: 20px;
 }
 
-/* line 283, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 286, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .third-section__text {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-/* line 286, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 289, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .third-section__first-elipse {
   position: absolute;
   top: 140px;
@@ -879,7 +885,7 @@ html {
   z-index: -1;
 }
 
-/* line 291, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 294, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .third-section__figure {
   position: absolute;
   top: 249px;
@@ -887,26 +893,26 @@ html {
   z-index: -1;
 }
 
-/* line 296, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 299, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .third-section__second-elipse {
   position: absolute;
   right: -120px;
   top: -120px;
 }
 
-/* line 302, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 305, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .title__hr_top {
   bottom: 75px;
 }
 
-/* line 306, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 309, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .footer__img {
   position: absolute;
   left: -250px;
   bottom: 0px;
 }
 
-/* line 310, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 313, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .footer__container {
   min-height: 272px;
   display: flex;
@@ -914,7 +920,7 @@ html {
   justify-content: flex-end;
 }
 
-/* line 315, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
+/* line 318, ../Frontend/Дмитрий Ф/Сайт-2/src/sass/style.sass */
 .footer__title {
   margin-bottom: 20px;
 }
